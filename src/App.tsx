@@ -7,11 +7,18 @@ import Customcontent from "./Component/Customcontent";
 import ListGroups from "./Component/ListGroups";
 import FavColor from "./Component/FavColor";
 import ListGroupActive from "./Component/ListGroupActive";
+import Message from "./Component/Message";
+import Listgroupwithprops from "./Component/Listgroupswithprops";
 
 function App() {
   return (
     <>
-      <ListGroupActive></ListGroupActive>
+      <Listgroupwithprops
+        heading="welcome to frontend learning"
+        items={["React", ",", "Angular", ",", "Vue"]}
+      />
+      {/* <Message text="hi react" subtext="welcome"></Message> */}
+      {/* <ListGroupActive></ListGroupActive> */}
       {/* <FavColor /> */}
 
       {/* <ListGroups /> */}

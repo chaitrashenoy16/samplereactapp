@@ -1,13 +1,22 @@
 import "./App.css";
+import ListGroup from "./Component/ListGroup";
 import Navbar from "./Component/Navbar";
 import Customheader from "./Component/Customheader/Customheader";
 import Customfooter from "./Component/Customefooter/Customfooter";
 import Customcontent from "./Component/Customcontent";
+import ListGroups from "./Component/ListGroups";
+import FavColor from "./Component/FavColor";
+import ListGroupActive from "./Component/ListGroupActive";
 
 function App() {
   return (
     <>
-      <Customheader />
+      <ListGroupActive></ListGroupActive>
+      {/* <FavColor /> */}
+
+      {/* <ListGroups /> */}
+
+      {/* <Customheader />
       <div className="row">
         <div className="col-2">
           <Navbar />
@@ -17,7 +26,10 @@ function App() {
         </div>
         <div className="col-4"></div>
       </div>
-      <Customfooter />
+      <Customfooter /> */}
+
+      {/* 
+      <ListGroup/> */}
     </>
   );
 }

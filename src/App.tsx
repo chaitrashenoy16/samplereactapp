@@ -1,5 +1,4 @@
 import "./App.css";
-import ListGroup from "./Component/ListGroup";
 import Navbar from "./Component/Navbar";
 import Customheader from "./Component/Customheader/Customheader";
 import Customfooter from "./Component/Customefooter/Customfooter";
@@ -16,8 +15,7 @@ function App() {
         <div className="col-6">
           <Customcontent />
         </div>
-        <div className="col-4">
-        </div>
+        <div className="col-4"></div>
       </div>
       <Customfooter />
     </>

@@ -18,11 +18,6 @@ function App() {
   const [alertVisible, setAlertVisibility] = useState(false);
   return (
     <>
-      {/* {alertVisible && (
-        <Alert onClose={() => setAlertVisibility(false)}>
-          <i>Button is clicked!</i>
-        </Alert>
-      )} */}
       {alertVisible && (
         <div
           className="alert alert-primary alert-dismissible fade show"
